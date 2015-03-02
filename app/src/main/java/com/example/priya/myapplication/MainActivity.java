@@ -22,6 +22,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
        //adding comments
+        // changing comments
 
         txtView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
