@@ -19,6 +19,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         TextView txtView = (TextView) findViewById(R.id.text1);
         final String Label = txtView.getText().toString();
 
+
+
+       //adding comments
+
         txtView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),
